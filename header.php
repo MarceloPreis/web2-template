@@ -8,8 +8,8 @@
     <div class="header-bar">
         <div class="">
             <div class="flex-column pull-left">
-                <span>OI</span>
-                <span>OI</span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
             </div>
         </div>
         <div>
@@ -28,11 +28,13 @@
             <button class="contato">
                 <span>Fale Conosco</span>
             </button>
+            <div>
+                <span style="margin-right: 60px;">contato@email.com</span>
+                <span>(47) 99604-2380</span>
+            </div>
         </div>
         <div class="banner-image">
-            <figure>
-                <img src="assets/images/medico.png" alt="" />
-			</figure>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/medico.png" alt="" />
         </div>
     </div>
 
